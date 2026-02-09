@@ -1,70 +1,129 @@
-# Getting Started with Create React App
+# Task Manager Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Developer:** Raul Garcia
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+A fully functional task management web application built with React. This app allows users to manage their daily tasks with full CRUD (Create, Read, Update, Delete) operations and includes a contact form for user feedback.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Todo Management
+- ✅ Add new tasks to your todo list
+- ✅ Mark tasks as completed with visual indication (strike-through)
+- ✅ Delete tasks from the list
+- ✅ Filter tasks by status (All, Completed, Incomplete)
+- ✅ Real-time state updates
+- ✅ Side-by-side layout with add form and task list
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Contact Form
+- ✅ Controlled form component
+- ✅ Four input fields: First Name, Last Name, Email, Comments
+- ✅ Form validation
+- ✅ Form state management
 
-### `npm test`
+### Navigation
+- ✅ Horizontal navigation bar
+- ✅ Two main routes: /todos and /contact
+- ✅ React Router integration
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Design
+- 🎨 Retro-themed design with vibrant colors
+- 🎨 Responsive layout
+- 🎨 10+ custom CSS rules
+- 🎨 Gradient backgrounds and 3D effects
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React** - Frontend framework
+- **React Router DOM** - Client-side routing
+- **CSS3** - Styling and animations
+- **JavaScript (ES6+)** - Programming language
+- **Create React App** - Build tool
+- **Git & GitHub** - Version control
+- **GitHub Pages** - Hosting
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## How to Use
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone the repository:
+```bash
+git clone https://github.com/rgca312/task-manager-app.git
+cd task-manager-app
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install dependencies:
+```bash
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Start the development server:
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Open your browser to `http://localhost:3000`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Using the App
 
-## Learn More
+**Managing Todos:**
+1. Navigate to the "Todos" page
+2. Enter a task in the input field on the left side
+3. Click "Add Task" to add it to your list
+4. Click the checkbox next to a task to mark it as completed
+5. Click "Delete" to remove a task
+6. Use the filter buttons (All, Incomplete, Completed) to view specific tasks
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Contact Form:**
+1. Navigate to the "Contact" page
+2. Fill in all required fields (First Name, Last Name, Email, Comments)
+3. Click "Submit" to send your message
+4. The form will display an alert and log data to the console
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Project Structure
+```
+task-manager-app/
+├── public/
+├── src/
+│   ├── components/
+│   │   └── NavBar.js
+│   ├── pages/
+│   │   ├── TodosPage.js
+│   │   └── ContactPage.js
+│   ├── styles/
+│   │   ├── NavBar.css
+│   │   ├── TodosPage.css
+│   │   └── ContactPage.css
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+├── PLANNING.md
+├── package.json
+└── README.md
+```
 
-### Code Splitting
+## Future Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. **Local Storage Persistence** - Save todos to browser localStorage so they persist after page refresh
+2. **Edit Task Feature** - Allow users to edit existing tasks instead of only deleting and recreating them
+3. **Due Dates** - Add the ability to set due dates for tasks with sorting by date
+4. **Task Categories/Tags** - Organize tasks by category or add tags for better organization
+5. **Dark Mode Toggle** - Add a theme switcher for users who prefer dark mode
+6. **Task Priority Levels** - Add high/medium/low priority indicators for tasks
+7. **Search Functionality** - Allow users to search through their tasks
+8. **Backend Integration** - Connect to a backend API to store tasks in a database
+9. **User Authentication** - Add login/signup functionality so multiple users can have their own task lists
+10. **Task Statistics** - Show completion rates, productivity charts, and task analytics
 
-### Analyzing the Bundle Size
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project was created as part of a Software Engineering Bootcamp assignment.
 
-### Making a Progressive Web App
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+For questions or feedback, please use the Contact form in the application.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**GitHub Repository:** https://github.com/rgca312/task-manager-app
