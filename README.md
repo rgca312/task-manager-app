@@ -30,7 +30,6 @@ A fully functional task management web application built with React. This app al
 ### Design
 - 🎨 Retro-themed design with vibrant colors
 - 🎨 Responsive layout
-- 🎨 10+ custom CSS rules
 - 🎨 Gradient backgrounds and 3D effects
 
 ## Technologies Used
@@ -42,29 +41,7 @@ A fully functional task management web application built with React. This app al
 - **Create React App** - Build tool
 - **Git & GitHub** - Version control
 - **GitHub Pages** - Hosting
-
-## How to Use
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/rgca312/task-manager-app.git
-cd task-manager-app
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm start
-```
-
-4. Open your browser to `http://localhost:3000`
-
+- 
 ### Using the App
 
 **Managing Todos:**
@@ -81,28 +58,6 @@ npm start
 3. Click "Submit" to send your message
 4. The form will display an alert and log data to the console
 
-## Project Structure
-```
-task-manager-app/
-├── public/
-├── src/
-│   ├── components/
-│   │   └── NavBar.js
-│   ├── pages/
-│   │   ├── TodosPage.js
-│   │   └── ContactPage.js
-│   ├── styles/
-│   │   ├── NavBar.css
-│   │   ├── TodosPage.css
-│   │   └── ContactPage.css
-│   ├── App.js
-│   ├── App.css
-│   └── index.js
-├── PLANNING.md
-├── package.json
-└── README.md
-```
-
 ## Future Improvements
 
 1. **Local Storage Persistence** - Save todos to browser localStorage so they persist after page refresh
@@ -115,15 +70,5 @@ task-manager-app/
 8. **Backend Integration** - Connect to a backend API to store tasks in a database
 9. **User Authentication** - Add login/signup functionality so multiple users can have their own task lists
 10. **Task Statistics** - Show completion rates, productivity charts, and task analytics
-
-## License
-
-This project was created as part of a Software Engineering Bootcamp assignment.
-
-## Contact
-
-For questions or feedback, please use the Contact form in the application.
-
----
 
 **GitHub Repository:** https://github.com/rgca312/task-manager-app
