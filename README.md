@@ -1,6 +1,6 @@
 # Task Manager Web App
 
-**Developer:** Raul Garcia
+**Developer:** Raul G Cerda
 
 ## Project Overview
 
